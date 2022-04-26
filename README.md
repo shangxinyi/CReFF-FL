@@ -6,12 +6,6 @@ This is the code for paper: **Federated Learning on Heterogeneous and Long-Taile
 
 
 
-### The framework of CReFF
-
-![Model_figure](README.assets/Model_figure.png)
-
-
-
 ### Dependencies
 
 - python 3.7.9 (Anaconda)
