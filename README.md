@@ -3,7 +3,9 @@
 This is an official implementation of the following paper:
 
 > Xinyi Shang, **Yang Lu***, Gang Huang, and Hanzi Wang.
+>
 > **Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features**
+>
 > *International Joint Conference on Artificial Intelligence (IJCAI), 2022* 
 
 
