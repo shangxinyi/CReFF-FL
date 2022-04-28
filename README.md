@@ -1,6 +1,12 @@
 # **Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features**
 
-This is the code for paper: **Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features**
+This is an official implementation of the following paper:
+
+> Xinyi Shang, **Yang Lu***, Gang Huang, and Hanzi Wang.
+> **Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features**
+> *International Joint Conference on Artificial Intelligence (IJCAI), 2022* 
+
+
 
 **Abstract:** Federated learning (FL) provides a privacy-preserving solution for distributed machine learning tasks. One challenging problem that severely damages the performance of FL models is the co-occurrence of data heterogeneity and long-tail distribution, which frequently appears in real FL applications. In this paper, we first reveal an intriguing fact that the biased classifier is the primary factor leading to the poor performance of the global model. Motivated by the above finding, we propose a novel and privacy-preserving FL method for heterogeneous and long-tailed data via Classifier Re-training with Federated Features (CReFF).  The classifier re-trained on federated features can produce comparable performance as the one re-trained on real data in a privacy-preserving manner without information leakage of local data or class distribution. Experiments on several benchmark datasets show that the proposed CReFF is an effective solution to obtain a promising FL model under heterogeneous and long-tailed data. Comparative results with the state-of-the-art FL methods also validate the superiority of CReFF.
 
