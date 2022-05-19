@@ -41,7 +41,7 @@ class Global(object):
                                        requires_grad=True, device=args.device)
         self.label_syn = torch.tensor([np.ones(self.num_of_feature) * i for i in range(args.num_classes)], dtype=torch.long,
                                       requires_grad=False, device=args.device).view(-1)  # [0,0,0, 1,1,1, ..., 9,9,9]
-        self.optimizer_feature = SGD([self.feature_syn, ], lr=args.feature)  # optimizer_img for synthetic data
+        self.optimizer_feature = SGD([self.feature_syn, ], lr=args.lr_feature)  # optimizer_img for synthetic data
         self.criterion = CrossEntropyLoss().to(args.device)
         self.syn_model = ResNet_cifar(resnet_size=8, scaling=4,
                                       save_activations=False, group_norm_num_groups=None,
